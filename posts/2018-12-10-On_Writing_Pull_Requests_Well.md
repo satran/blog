@@ -1,6 +1,7 @@
 On Writing Pull Requests Well
 10/12/2018
 
+I had a conversation recently with a colleague about pull
 requests. After a few discussions to and fro I thought it might serve
 him and me best if I could pen my thoughts.
 
