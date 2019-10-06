@@ -5,7 +5,7 @@ Introducing EDI
 
 I've had this thought from the time I tried to settle down on one editor. There was always something that did not quite work for me. Vim worked most of the times and when it didn't I tried to jump ships to Emacs. I gave Sublime Text, Textmate, and a number of others a fair chance. Last I came across Acme. It was brilliant in many ways and terrible in others. I wanted the plumbing and ability to execute commands on the go and have better keybindings and editor features. So I decided to write my own. So here is EDI (pronounced as Eddy).
 
-<iframe width="640" height="480" src="//www.youtube.com/embed/bDlXj4hW0JI" frameborder="0" allowfullscreen></iframe>
+<iframe width="600" height="384" src="//www.youtube.com/embed/bDlXj4hW0JI" frameborder="0" allowfullscreen></iframe>
 
 It is a web application which runs on port 8312. Written in Go it can be cross compiled on platforms that it supports(not tested on Windows thought). It is in its nascent stage and does not provide features you would see in other editors. 
 
