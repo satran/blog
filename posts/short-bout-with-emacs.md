@@ -37,7 +37,7 @@ I believe the main reason was I had started to grok vi and any other thing seeme
   
   
 Just a screenshot.
-![Screenshot Emacs](/images/others/emacs.png "Just a screenshot.")
+![Screenshot Emacs](/s/images/others/emacs.png "Just a screenshot.")
   
    
 <sub>1. Eventually I wrote the plugin with Python.</sub>
