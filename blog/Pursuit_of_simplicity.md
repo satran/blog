@@ -46,7 +46,7 @@ My early days in a new team over the recent years has been to educate them to pu
 3. Don’t focus on the technology.
    As programmers I think we have a tendency to be a Magpie[7]. Magpies are birds that pick up shiny things to decorate their nests. Kafka, event-sourcing, microservices, lambda functions etc. All these are great technologies but are they right technology for the problem you are trying to solve. The best technology is the technology you know best. It helps you to get things out quickly and get feedback. It helps you focus on the problem you have to solve rather than the new way of deploying your code. 
 
-4. Better communication
+4. Better communication.
    Let’s draw lines between the members in your team.
    ![team-communication](/s/images/team-interactions.png)
    The lines represent the communication between team members(defined by letters). I gave up drawing the interactions beyond a 6 member team. Communication overhead increases the more people you have in your team. And when the overhead increases a gulf begins to yawn in the common understanding of the problem. It would be nice to have very small teams to work independently of other teams. But that rarely happens in the real world. The best way is to invest in good communication between teams. The article “Bad Software Architecture is a People Problem”[8] provides a few ways to solve this issue: define how you will work together, when bugs happen work together to solve them, create coding standards.

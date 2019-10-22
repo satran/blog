@@ -25,6 +25,18 @@
     .container img {
     	max-width: 100%;
     }
+    nav {
+	text-align: right;
+	font-size: .8em;
+    }
+    nav li {
+	list-style:none;
+	display: inline-block;
+	padding: .1em;
+    }
+    nav li a {
+	text-decoration: none;
+    }
     .title {
         padding: 0;
 	margin: 0;
@@ -68,7 +80,12 @@
 </head>
 <body>
 <div class="container">
-	<p> Hi! I am Satyajit Ranjeev. I am a computer programmer who loves to solve problems. I currently work at <a href="https://solarisbank.de">solarisBank</a> as an engineer. You can reach me on Twitter at <a href="https://twitter.com/sat_ran">@sat_ran</a></p>
+<nav>
+  <li><a href="https://twitter.com/sat_ran">Twitter</a></li>
+  <li>|</li>
+  <li><a href="mailto://s@ranjeev.in">Email</a></li>
+</nav>
+	<p> Hi! I am Satyajit Ranjeev. I am a computer programmer who loves to solve problems. I currently work at <a href="https://solarisbank.de">solarisBank</a> as an engineer.</p>
 <p class="date"></p1>
 <h3>Articles</h3>
 {{ range .Pages }}
