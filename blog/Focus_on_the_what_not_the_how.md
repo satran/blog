@@ -9,7 +9,7 @@ This engineer, with a few others, set up procedures for Incidence Response, set 
 
 This whole exercise turned out to be a resounding success. We were the first department in the company to maintain the systems we built; prior to this we had an operations team. This inspired all the others in the company to do so as well. We were able to provide better support, with more context than an operations team.
 
-The most important lesson from this experience I got was to get my engineers to focus on the outcome. In other words, what did we want to achieve? I wasn't deeply involved in how it was done. This was crucial to the success. I have been an engineer myself, and got annoyed by managers who "suggested" how things were to be done or constantly check how things are being done. It is important to trust the engineers to get the job done right. When you focus on how things need to be done it puts mistrust in the people. If you don't trust them you have hired the wrong folks. 
+The most important lesson from this experience I got was to focus on the outcome. In other words, what did we want to achieve? I wasn't deeply involved in how it was done. This was crucial to the success. I have been an engineer myself, and got annoyed by managers who "suggested" how things were to be done or constantly check how things are being done. It is important to trust the engineers to get the job done right. When you focus on how things need to be done it puts mistrust in the people. If you don't trust them you have hired the wrong folks. 
 
 tl;dr focus your energy on setting clear outcomes for your teams and follow up on these outcomes. Don't focus on the how it needs to be done. Your engineers would figure the best solution.
 
