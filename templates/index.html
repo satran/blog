@@ -13,17 +13,12 @@
     <h1>Hi! I am Satyajit Ranjeev.</h1>
     <p>I love to solve problems, mostly related to computers. I currently work at <a href="https://solarisbank.de">Solarisbank</a>.</p>
     
-    <section>
-      <h2>Articles</h2>
+    <h2>Articles</h2>
     {{ range $id, $a := .Pages }}
     <p class="page">
-      <a href="{{$a.URL}}">{{$a.Title}}</a>
-      <label for="article-{{$id}}" class="margin-toggle">&#8853;</label>
-      <input type="checkbox" id="article={{$id}}" class="margin-toggle"/>
-      <span class="marginnote">{{ $a.Date.Format "2, Jan 2006" }}</span>
+      <a href="{{$a.URL}}">{{$a.Title}}</a> - {{ $a.Date.Format "2, Jan 2006" }}
     </p>
     {{ end }}
-    </section>
 
   </article>
 </div>

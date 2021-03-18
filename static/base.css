@@ -26,7 +26,7 @@ nav>li {
     display: inline-block;
     list-style: none;
     font-weight: bold;
-    text-transformation: uppercase;
+    text-transform: uppercase;
 }
 nav a {
     text-decoration: none;
