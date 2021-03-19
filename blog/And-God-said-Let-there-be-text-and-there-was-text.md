@@ -1,7 +1,7 @@
 And God said Let there be text, and there was text
 07/03/2016
 
-** Update 2021: I stopped working on this project and saola no longer is what I built.
+** Update 2021: I stopped working on this project and saola no longer is what I built. **
 
 And God said "Let there be text, and there was text". This would be the start of the bible if the historians of UNIX wrote one. `/etc/passwd`, `/var/log/messages`, `~/.bashrc` etc, all these wonderful ways of storing information in a very simple and importantly easily accessible format of file. It was all text. 
 
@@ -19,7 +19,7 @@ Here are a few plans that we have in mind:
 - Make it more like the UNIX filesystem
 - More language support, may be a lisp?
 
-Spread the word, give it a shot and let me know what you think. ~Register at Saola~.
+Spread the word, give it a shot and let me know what you think. Register at Saola.
 
 [^1]: Emacs for me and vi for the evil ones ;) 
 [^2]: Sadly systemd is taking it away from me
