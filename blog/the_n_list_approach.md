@@ -34,6 +34,7 @@ This comes from Getting Things Done's Tickler file.
 topic. This is where I add things I want to be reminded about in a specific date. 
 
 These are my n-lists. This is how they are ordered:
+
 - Important & Urgent
 - Hiring
 - Migration
