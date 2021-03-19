@@ -15,23 +15,14 @@ Start with a list of topics that you are working on. Topics are projects that yo
 - Writing
 - Trip to Kerala
 
-For each of these topics write down things you'd like to do. Every time you are assigned a new task add it to the appropriate topic. For tasks that cannot be added to the existing topics I have four topics based on the Eisenhower matrix <label for="eisenhower" class="margin-toggle">&#8853;</label>
-<input type="checkbox" id="eisenhower" class="margin-toggle"/>
-<span class="marginnote">
-https://www.eisenhower.me/eisenhower-matrix/
-</span>: 
+For each of these topics write down things you'd like to do. Every time you are assigned a new task add it to the appropriate topic. For tasks that cannot be added to the existing topics I have four topics based on the Eisenhower matrix[^1] 
 
 - Important & Urgent (things I should do asap)
 - Important & Not Urgent (things I can schedule or do it later)
 - Not Important & Urgent (things I must delegate)
 - Not Important & Not Urgent (don't do them)
 
-I also have one more topic called the Tickler<label for="tickler" class="margin-toggle">&#8853;</label>
-<input type="checkbox" id="tickler" class="margin-toggle"/>
-<span class="marginnote">
-This comes from Getting Things Done's Tickler file.
-</span>
-topic. This is where I add things I want to be reminded about in a specific date. 
+I also have one more topic called the Tickler[^2] topic. This is where I add things I want to be reminded about in a specific date. 
 
 These are my n-lists. This is how they are ordered:
 
@@ -54,3 +45,5 @@ The beauty of this approach is that you can use any tool that you are already us
 
 
 
+[^1]: https://www.eisenhower.me/eisenhower-matrix/
+[^2]: This comes from Getting Things Done's Tickler file.

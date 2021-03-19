@@ -5,29 +5,18 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>{{ .Title }}</title>
     <link rel="shortcut icon" href="/s/images/favicon.png" />
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/s/base.css"/>
   </head>
   <body>
     <nav>
-      <li><a href="/">Home</a></li>
-      <li><a href="https://twitter.com/sat_ran">Twitter</a></li>
+      <li><a href="/">Articles</a> | </li>
+      <li><a href="https://twitter.com/sat_ran">Follow on Twitter</a> | </li>
       <li><a href="/feed.xml">RSS Feed</a></li>
     </nav>
     <article>
       <h1 class="title">{{ .Title }}</h1>
       <section>
-	<p class="date">
-	  <em>~ {{ .Date.Format "Jan 2 2006" }} by Satyajit ~</em>
-	  <label for="about-me" class="margin-toggle">&#8853;</label>
-	  <input type="checkbox" id="about-me" class="margin-toggle"/>
-	  <span class="marginnote">
-	    Satyajit loves to solve problems, especially when they are related to computers. He currently works at <a href="https://solarisbank.de">Solarisbank</a> leading engineering for the Core Banking Department. You can read more of his articles <a href="/">here</a>. 
-	     <br/>
-	    Follow him on <a href="https://twitter.com/sat_ran">Twitter</a>
-
-	  </span>
-	</p>
+	<p class="date"> ~ {{ .Date.Format "Jan 2 2006" }} by <a href="/">Satyajit</a> ~ </p>
 	{{ .Body }}
       </section>
     </article>
