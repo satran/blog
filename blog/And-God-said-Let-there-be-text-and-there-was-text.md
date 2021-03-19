@@ -1,6 +1,8 @@
 And God said Let there be text, and there was text
 07/03/2016
 
+** Update 2021: I stopped working on this project and saola no longer is what I built.
+
 And God said "Let there be text, and there was text". This would be the start of the bible if the historians of UNIX wrote one. `/etc/passwd`, `/var/log/messages`, `~/.bashrc` etc, all these wonderful ways of storing information in a very simple and importantly easily accessible format of file. It was all text. 
 
 In this age we are so concerned about speed and scalability that we forget a lot of what is essential. Sometimes storing my personal finances, a list of my contacts or my task, all it needs is a text file. I can always use `grep` `sed` and `awk` to manipulate them. I can fire up my favourite editor[^1] and modify it. I can store my files in my local harddisk, sync it with Dropbox or put them in some remote server that I can access. If one of these services die I always have my text files and not have to worry if I can open them. 
@@ -17,7 +19,7 @@ Here are a few plans that we have in mind:
 - Make it more like the UNIX filesystem
 - More language support, may be a lisp?
 
-Spread the word, give it a shot and let me know what you think. Register at [https://saola.in/#register](https://saola.in/#register).
+Spread the word, give it a shot and let me know what you think. ~Register at Saola~.
 
 [^1]: Emacs for me and vi for the evil ones ;) 
 [^2]: Sadly systemd is taking it away from me
