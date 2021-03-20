@@ -33,7 +33,7 @@ Looking through all our tickets on Jira over the last one and a half year I obse
 
 There are some who claim[^4] it is better to move complexity to infrastructure tasks as these can be automated. For larger teams with this might work but not for a small team like ours.
 
-I have provided you with two reasons not to do micro services for your next start-up. The talk[^1] I gave at MicroXchg 2017 discusses a bit more about the same topic. My hope is that you learn from our mistakes. 
+I have provided you with two reasons not to do micro services for your next start-up. The talk I gave at MicroXchg 2017 discusses a bit more about the same topic. My hope is that you learn from our mistakes. 
 
 
 [^1]: [Complexities of micro services and event sourcing](https://www.youtube.com/watch?v=yVUiA6gDhKU)
