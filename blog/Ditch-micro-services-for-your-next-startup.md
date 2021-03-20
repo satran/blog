@@ -1,7 +1,7 @@
 Ditch Micro Services for your next Startup
 26/02/2017
 
-Look at the interest grow about micro services. There is a conference dedicated to it, MicroXchg, and I spoke at it[[1](#2)]. If you are thinking of building micro services I urge you to reason out the complexities involved. If you are starting fresh or are a small team micro services is not the right choice. 
+Look at the interest grow about micro services. There is a conference dedicated to it, MicroXchg, and I spoke at it[^1]. If you are thinking of building micro services I urge you to reason out the complexities involved. If you are starting fresh or are a small team micro services is not the right choice. 
 
 ![Screenshot Micro Services Trend](/s/images/others/microservices-trend.png "Google trends on Micro Services.")
 
@@ -10,7 +10,7 @@ In 2015 I joined OptioPay to build a system that transfers money. We had a clean
 
 ### Service Decomposition
 
-One of our early challenges was service decomposition. Martin Fowler describes in his article[[2](#2)] to use bounded context. He summarizes what Eric Evans says in his book, the Domain Driven Design[[3](#3)]. This is the right approach to decompose services. The challenge though is when you are starting a product the domain is not very clear. You learn the natural boundaries by time either through planned experiments or acquired experience.
+One of our early challenges was service decomposition. Martin Fowler describes in his article[^2] to use bounded context. He summarizes what Eric Evans says in his book, the Domain Driven Design[^3]. This is the right approach to decompose services. The challenge though is when you are starting a product the domain is not very clear. You learn the natural boundaries by time either through planned experiments or acquired experience.
 
 EDIT: We fucked up this one, it is obvious in retrospect this was a stupid idea.
 
@@ -31,16 +31,15 @@ Looking through all our tickets on Jira over the last one and a half year I obse
 ![Number of operational tasks](/s/images/others/operations.png "Tasks related to operations")
 
 
-There are some who claim[[4](#4)] it is better to move complexity to infrastructure tasks as these can be automated. For larger teams with this might work but not for a small team like ours.
+There are some who claim[^4] it is better to move complexity to infrastructure tasks as these can be automated. For larger teams with this might work but not for a small team like ours.
 
-I have provided you with two reasons not to do micro services for your next start-up. The talk[[1](#1)] I gave at MicroXchg 2017 discusses a bit more about the same topic. My hope is that you learn from our mistakes. 
+I have provided you with two reasons not to do micro services for your next start-up. The talk[^1] I gave at MicroXchg 2017 discusses a bit more about the same topic. My hope is that you learn from our mistakes. 
 
----
 
-<p><a name="1" href="https://www.youtube.com/watch?v=yVUiA6gDhKU">1.
-Complexities of micro services and event sourcing</a></p>
-<p><a name="2" href="https://martinfowler.com/bliki/BoundedContext.html">2. Martin Fowler on Bounded Context</a></p>
+[^1]: [Complexities of micro services and event sourcing](https://www.youtube.com/watch?v=yVUiA6gDhKU)
 
-<p name="3"><a rel="nofollow" href="https://www.amazon.de/gp/product/0321125215/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0321125215&linkCode=as2&tag=satranin-21">3. Domain-Driven Design: Tackling Complexity in the Heart of Software</a><img src="http://ir-de.amazon-adsystem.com/e/ir?t=satranin-21&l=as2&o=3&a=0321125215" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" /><p>
+[^2]: [Martin Fowler on Bounded Context](https://martinfowler.com/bliki/BoundedContext.html)
 
-<p><a name="4" href="https://www.oreilly.com/ideas/microservices-shift-complexity-to-where-it-belongs">4. Shift complexity to where it belongs</a></p>
+[^3]: [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.amazon.de/gp/product/0321125215/ref=as_li_tl?ie=UTF8&camp=1638&creative=6742&creativeASIN=0321125215&linkCode=as2&tag=satranin-21)
+
+[^4]: [Shift complexity to where it belongs](https://www.oreilly.com/ideas/microservices-shift-complexity-to-where-it-belongs)
