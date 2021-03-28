@@ -1,0 +1,32 @@
+Why_dont_we_build_software_that_interact_well
+20.03.2021
+
+There is a reason why both Shell scripts(with plain text files) and Excel are used a lot, despite the general dislike to both. I know some of you will not be happy of placing Shell and Excel in the same sentence. I'm not a fan of Excel either, but I think there is a fundamental concept that makes me to put them together. 
+
+It is this: these softwares place a great deal of power and flexibility in the hands of the user. I work with both of them a lot. I use a lot of plain text files. Shell scripting comes in handy when I want to pick up bits of them. They are also great when I want to summarise things. I use Excel as well, especially related to work. There are several budget plannings that work best in Excel. 
+
+They like it because it gives them the ability to work 
+
+
+If you think of any of the popular tools, you can do most of the work using any one of them. Say you want a task manager, or you want a calendar, or even a 
+
+Shell -> I can create a simple task manager
+			-> I can even have some form of spreadsheet
+			-> There's no installation and this gives the ability to just run things
+			
+Excel -> You can do most of the things in Excel
+			-> Create a simple task manager
+			-> Create a calendar
+			-> Multiple lists
+
+
+
+POSIX shell with extensions
+
+I'm not sure what to write. I have to write something today. But I'm not sure what to do so. This is an experiment for about 30 days. I want to write for the next 30 days continuously. I have to think about something that I would like to share, and express my thoughts in words. 
+
+It is not as easy as it seems. Writing right off your mind without any research is crazy. 
+
+Goals!
+
+     

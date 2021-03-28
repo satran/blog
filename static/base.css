@@ -18,20 +18,26 @@ article {
 article img {
     max-width: 100%;
 }
-nav {
+nav.main {
     text-align: center;
     font-family: sans-serif;
     text-transform: uppercase;
     font-size: .8em;
+    margin: 2em;
 }
-nav li {
+nav.main li {
     list-style:none;
     display: inline-block;
     padding: .1em;
 }
-nav li a {
+nav.main li a {
     text-decoration: none;
 }
+
+nav.footer li {
+    list-style: none;
+}
+
 .title {
     padding: 0;
     margin: 0;

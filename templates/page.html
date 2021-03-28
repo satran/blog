@@ -8,10 +8,10 @@
     <link rel="stylesheet" href="/s/base.css"/>
   </head>
   <body>
-    <nav>
-      <li><a href="/">Articles</a> | </li>
-      <li><a href="https://twitter.com/sat_ran">Follow on Twitter</a> | </li>
-      <li><a href="/feed.xml">RSS Feed</a></li>
+    <nav class="main">
+      <li><a href="/">satran</a> / </li>
+      <li><a href="/">blog</a> / </li>
+      <li><a href="{{ .URL }}">{{ .Title }}</a></li>
     </nav>
     <article>
       <h1 class="title">{{ .Title }}</h1>
@@ -20,5 +20,11 @@
 	{{ .Body }}
       </section>
     </article>
+
+    <nav class="footer">
+      <li><a href="https://twitter.com/sat_ran">Follow me on Twitter for more such content</a> | </li>
+      <li><a href="/feed.xml">Subscribe to the RSS Feed</a></li>
+    </ul>
+
   </body>
 </html>
