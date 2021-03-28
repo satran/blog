@@ -8,23 +8,28 @@
     <link rel="stylesheet" href="/s/base.css"/>
   </head>
   <body>
-    <nav class="main">
+	  <div class="main">
+    <nav>
       <li><a href="/">satran</a> / </li>
-      <li><a href="/">blog</a> / </li>
-      <li><a href="{{ .URL }}">{{ .Title }}</a></li>
+      <li><a href="/">Blog</a></li>
     </nav>
+	  </div>
     <article>
       <h1 class="title">{{ .Title }}</h1>
       <section>
-	<p class="date"> ~ {{ .Date.Format "Jan 2 2006" }} by <a href="/">Satyajit</a> ~ </p>
+	<p class="date">{{ .Date.Format "Jan 2 2006" }} by <a href="/">Satyajit</a></p>
 	{{ .Body }}
       </section>
+      
     </article>
 
-    <nav class="footer">
-      <li><a href="https://twitter.com/sat_ran">Follow me on Twitter for more such content</a> | </li>
-      <li><a href="/feed.xml">Subscribe to the RSS Feed</a></li>
-    </ul>
+    <div class="footer">
+    <nav>
+	    <li>I'm <a href="https://twitter.com/sat_ran">@sat_ran</a> on Twitter. <a href="https://twitter.com/sat_ran">Follow me</a> for more such content.</li>
+      <li>You can also <a href="/feed.xml">subscribe to the RSS Feed</a></li>
+      <nav>
+    </div>
+
 
   </body>
 </html>
